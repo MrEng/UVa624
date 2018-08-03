@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 public class Main {
+	// if you are defining Hashmap as static, why are you passing it to the method
 	static HashMap<Integer,Integer> real = new HashMap<Integer,Integer>();
 	public static boolean tracks(int index,HashMap<Integer,Integer> m,int sum,int target) {
 		if(sum==target) {
